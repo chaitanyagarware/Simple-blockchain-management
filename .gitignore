@@ -1,0 +1,19 @@
+# Python-specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+
+# Project-specific
+wallet.pem
+pending_transactions/
+blocks/
+processed_blocks/
+
+# General
+.DS_Store
+*.log
